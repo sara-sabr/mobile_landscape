@@ -1,0 +1,272 @@
+[
+  {
+    "to": "Cross platform development",
+    "from": "Minimalistic Design",
+    "weight": 6000
+  },
+  {
+    "to": "Cross platform development",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Native App development",
+    "from": "Minimalistic Design",
+    "weight": 6000
+  },
+  {
+    "to": "Native App development",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Machine Learning",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Machine Learning",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Machine Learning",
+    "from": "Cloud Technology",
+    "weight": 6000
+  },
+  {
+    "to": "Machine Learning",
+    "from": "Internet of Things",
+    "weight": 6000
+  },
+  {
+    "to": "Machine Learning",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Augmented reality",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Augmented reality",
+    "from": "Internet of Things",
+    "weight": 6000
+  },
+  {
+    "to": "Augmented reality",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Camera specific AI",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Camera specific AI",
+    "from": "Minimalistic Design",
+    "weight": 6000
+  },
+  {
+    "to": "Camera specific AI",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Virtual assistance",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Virtual assistance",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Virtual assistance",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Virtual assistance",
+    "from": "Internet of Things",
+    "weight": 6000
+  },
+  {
+    "to": "Biometrics",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Biometrics",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Two-factor authentication",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Two-factor authentication",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Privacy",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Data collection",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Data collection",
+    "from": "Cloud Technology",
+    "weight": 6000
+  },
+  {
+    "to": "E-signature",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "E-signature",
+    "from": "Mobile Commerce",
+    "weight": 6000
+  },
+  {
+    "to": "User-oriented",
+    "from": "Minimalistic Design",
+    "weight": 6000
+  },
+  {
+    "to": "User-oriented",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "User-oriented",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Accessibility standards",
+    "from": "Minimalistic Design",
+    "weight": 6000
+  },
+  {
+    "to": "Focus on UX",
+    "from": "Minimalistic Design",
+    "weight": 6000
+  },
+  {
+    "to": "Online shopping",
+    "from": "Mobile Commerce",
+    "weight": 6000
+  },
+  {
+    "to": "Online shopping",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Currency exchange",
+    "from": "Mobile Commerce",
+    "weight": 6000
+  },
+  {
+    "to": "Mobile jobs",
+    "from": "Mobile Commerce",
+    "weight": 6000
+  },
+  {
+    "to": "Mobile jobs",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Mobile banking",
+    "from": "Mobile Commerce",
+    "weight": 6000
+  },
+  {
+    "to": "Amazon Web Service",
+    "from": "Cloud Technology",
+    "weight": 6000
+  },
+  {
+    "to": "Amazon Web Service",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Microsoft Azure",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Microsoft Azure",
+    "from": "Cloud Technology",
+    "weight": 6000
+  },
+  {
+    "to": "IBM Cloud",
+    "from": "Cloud Technology",
+    "weight": 6000
+  },
+  {
+    "to": "IBM Cloud",
+    "from": "App development",
+    "weight": 6000
+  },
+  {
+    "to": "Smart homes",
+    "from": "Internet of Things",
+    "weight": 6000
+  },
+  {
+    "to": "Smart homes",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Smart homes",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Transportation",
+    "from": "Internet of Things",
+    "weight": 6000
+  },
+  {
+    "to": "Transportation",
+    "from": "Mobile AI",
+    "weight": 6000
+  },
+  {
+    "to": "Transportation",
+    "from": "Mobile Security",
+    "weight": 6000
+  },
+  {
+    "to": "Environment",
+    "from": "Internet of Things",
+    "weight": 6000
+  },
+  {
+    "to": "Health Care",
+    "from": "Internet of Things",
+    "weight": 6000
+  },
+  {
+    "to": "Health Care",
+    "from": "Mobile AI",
+    "weight": 6000
+  }
+]
