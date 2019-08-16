@@ -12,7 +12,7 @@
     "data",
     "json"
   ],
-  "author": "Jonathan Dure",
+  "author": "Jonathan D",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
