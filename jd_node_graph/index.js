@@ -13,9 +13,7 @@ app.listen(3000, () => console.log('listening at 3000'));
 /** 
  * Things I want to do with the server
  * 1.Serve Webpages
- * 1.1. use express to host static files
- * 
- * 
+ * 1.1. use express to host static files 
 */
 app.use(express.static('public'));
 
