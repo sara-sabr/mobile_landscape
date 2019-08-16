@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Html to JSON</title>
+</head>
+
+<body>
+    <!-- Build form for Mind Map
+    1. Radio button (main category, subCategory, subSubCategory)
+    2. Title of Node
+    3. Parent  of node ( if main category parent = root, if subCategory input Parent title, if subSubCategory input Parent title )
+    4. Have a description field - Required
+    5. Have a footer  field - Required
+    ******
+    6. Pre-define colours based on Category
+    7. Default features for adding and removing nodes is off
+    8. Has children is true for mainCategory and subCategory
+    9. Has children is false for subSub Category
+    -->
+
+    <p><a href="/graph.html">Tree View</a></p>
+
+    <form id="test" action="#" method="POST">
+            <legend>Create New Category</legend>
+            <div>
+                    <label for="text">Title:</label>
+                    <input type="text" id="title" name="text">
+            </div>
+            <div>
+                <label for="desc">Description:</label>
+                <textarea id="desc" name="desc"></textarea>
+            </div>
+            <div>
+                    <label for="footer">References:</label>
+                    <input type="text" id="footer" name="footer">
+            </div>
+        
+        <p>Select Node Category:
+              <div>
+
+                    <div class="radio">
+                            <input  type="radio" id="nodeChoice1"
+                             name="class" value="category" onclick="hideParent();">
+                            <label for="nodeChoice1">Main Category</label>
+                        
+                            <input type="radio" id="nodeChoice2"
+                             name="class" value="subCategory" onclick="showParent();">
+                            <label for="nodeChoice2">Sub Category</label>
+                        
+                            <input type="radio" id="nodeChoice3"
+                             name="class" value="subSubCategory" onclick="showParent();">
+                            <label for="nodeChoice3">Sub Sub Category</label>
+                    </div>
+                
+        </div>
+    </p>
+<div id="div1" class="hide">
+    <legend>Node Parent</legend>
+    <select id="parent" name="parent">
+      <optgroup label="Main Categories">
+        <option value="category1">Development</option>
+        <option value="category2">Mobile Security</option>
+        <option value="category3">App Management</option>
+        <option value="category4">Artificial Intelligence</option>
+        <option value="category5">E-Commerce</option>
+        <option value="category6">Internet of Things</option>
+        <option value="category7">Mobile Application Design</option>
+      </optgroup>
+      <optgroup label="Sub Categories">
+        <option value="subCategory1">Native</option>
+        <option value="subCategory2">Cross Platform</option>
+        <option value="subCategory3">Biometrics & Privacy</option>
+        <option value="subCategory4">Multi-factor authentication</option>
+        <option value="subCategory5">Security & Data Management</option>
+        <option value="subCategory6">Machine Learning</option>
+        <option value="subCategory7">On-Device AI</option>
+        <option value="subCategory8">Cloud-Based AI</option>
+        <option value="subCategory9">M-Commerce</option>
+        <option value="subCategory10">Use Cases</option>
+        <option value="subCategory11">User-Oriented</option>
+        <option value="subCategory12">Focus on UX</option>
+        <option value="subCategory13">Accessibility Standards</option>
+      </optgroup>
+    </select>
+</div>
+    <div class="hide">
+        <input type="hidden" id="child" name="hasChildren" value="true">
+        <label for="child">Add Child Nodes</label>
+      </div>
+      <div>
+      <div class="hide">
+        <input id="expanded" name="expanded" value="false" type="hidden"  >
+        <label for="expanded">Is Node Expenaded?</label>
+      </div>
+      <div class="hide">
+        <input id="remove" name="removeAllowed" value="false" type="hidden" >
+        <label for="removeAllowed">Is Node Removable?</label>
+      </div>
+      <div class="hide">
+        <input id="addSubItem" name="addingSubItemAllowed" value="false" type="hidden" >
+        <label for="addingSubItemAllowed">Add Sub Item Allowed?</label>
+      </div>
+    <legend>Creation Number</legend>
+    <input id="num" type="number" name="key" readonly>
+
+
+            <p>
+               <input type="submit" value="submit" class="btn btn-primary btn-block" />
+            </p>
+            <pre id="output"></pre>
+    </form>
+
+    <script src="/js/main.js">
+    
+    
+    </script>
+</body>
+
+</html>
