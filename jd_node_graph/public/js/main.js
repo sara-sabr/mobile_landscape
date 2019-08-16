@@ -1,16 +1,4 @@
 /**
- * 
- * 1.Put form Data into an Object
- * 2.Store each Object into an array of Objects
- * 3.Add each new object to JSON file
- * 
- */
-
-// 1. Call the fetch function
-// 2. Deal with response
-// 3. Complete Data stream
-
-/**
  * Checks that an element has a non-empty `name` and `value` property.
  * @param  {Element} element  the element to check
  * @return {Bool}             true if the element is an input, false if not
@@ -160,8 +148,6 @@ const handleFormSubmit = async event => {
   dataContainer.textContent = JSON.stringify(data, null, "  ");
 
   // ...this is where we’d actually do something with the form data...
-  // YOUR CODE HERE
-
   arrObj.push(data);
 
   const options = {
@@ -178,12 +164,6 @@ const handleFormSubmit = async event => {
   const json = await response.json();
   
   console.log(json);
-
-  // Without async and await
-  // fetch('/api', options). then(response => {
-  //   console.log(response);
-  // });
-
   console.log(arrObj);
 };
 
