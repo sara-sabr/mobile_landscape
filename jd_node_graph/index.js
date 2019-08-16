@@ -1,10 +1,4 @@
 
-// Synchronous because when the server starts I do not want anything to happen until the data has been read
-// var mobileData = fs.readFileSync('mobile.json');
-// Need to parse the data as javascript object before using it
-// var nodesData = JSON.parse(mobileData);
-// console.log(nodesData.nodes);
-
 /** Use node to run a server - i.e. an application that runs and listens */ 
 var fs = require('fs');
 
