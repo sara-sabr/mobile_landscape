@@ -1,19 +1,7 @@
 (function(){
     var myDiagram;
 
-    // getData();
-    
-    // async function getData(){
-    //     const response = await fetch('api');
-    //     const data = await response.json();
-    //     console.log(data);
-    // }
-
     init();
-    
-    // document.getElementById("zoomInBtn").addEventListener("click", onZoomInClick);
-    // document.getElementById("zoomOutBtn").addEventListener("click", onZoomOutClick);
-    // document.getElementById("filterBtn").addEventListener("click", onDoFilterClick);
 
     // Get modal element
     var modal = document.getElementById('simpleModal');
@@ -32,6 +20,7 @@
     async function init() {    
         var $ = go.GraphObject.make;  // for conciseness in defining templates
   
+        //Fetch the json file from server
         const response = await fetch('api');
         const data = await response.json();
         console.log(data);
@@ -285,11 +274,6 @@
     //function to open modal
     function openModal(data){
       modal.style.display = 'block';
-      // Header and Footer color
-      //Without JSON
-      // document.querySelector('.modal-header').style.background = data.color.Gk;
-      // document.querySelector('.modal-footer').style.background = data.color.Gk;
-      // With JSON
       document.querySelector('.modal-header').style.background = data.color;
       document.querySelector('.modal-footer').style.background = data.color;
       document.querySelector('#nodeTitle').textContent = data.text;
