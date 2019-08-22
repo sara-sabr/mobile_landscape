@@ -181,8 +181,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "Compared with other biometric traits (e.g., face, iris, and voice), fingerprint-based recognition systems are studied most extensively and deployed most widely.For a fingerprint, the pattern of valleys and ridges is determined after birth, and different fingerprint patterns are owned by even identical twins.",
+      "footer": "(Yang et al, 2019)"
     },
     {
       "key": "subSubCategory13",
@@ -192,8 +192,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "Biometric solutions based on whole face geometry are already widely used. The increasing resolution of cameras on mobile devices makes them ideal as face biometric sensors.",
+      "footer": "(Robins and Henry, 2014)"
     },
     {
       "key": "subSubCategory14",
@@ -203,8 +203,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "To ensure a good quality voice sample, the individual usually recites some sort of text, which can either be a verbal phrase or a series of numbers.",
+      "footer": "(Kaur and Gupta, 2011)"
     },
     {
       "key": "subSubCategory15",
@@ -214,8 +214,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "In-app advertising allows mobile application developers to generate revenue despite publishing their work for free. As in traditional web-based advertising, personalization improves the effectiveness of in-app advertising (and thus increases the revenue earned by app developers).",
+      "footer": "(Meng et al, 2016)"
     },
     {
       "key": "subSubCategory16",
@@ -225,8 +225,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "A digital footprint is a trail of data you create while using the Internet. It includes the websites you visit, emails you send, and information you submit to online services.",
+      "footer": "(Christensson, P., 2014)"
     },
     {
       "key": "subSubCategory17",
@@ -236,8 +236,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "Location based services can be defined as computer applications (especially mobile computing applications) that deliver information tailored to the location and context of the device and the user.",
+      "footer": "(Huang et al, 2018)"
     },
     {
       "key": "subCategory4",
@@ -247,7 +247,7 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Two-factor authentication (or 2FA, for short) strengthens login security by requiring a second piece of information — a second factor beyond your password. The second piece of information is usually a temporary code delivered by a device in your possession, such as your phone. It may also be something on your body, such as a fingerprint.",
+      "desc": "Multi-factor authentication strengthens login security by requiring a second piece of information — a second factor beyond your password. The second piece of information is usually a temporary code delivered by a device in your possession, such as your phone. It may also be something on your body, such as a fingerprint.",
       "footer": "(Shelton, 2018)"
     },
     {
@@ -258,52 +258,30 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "When setting up 2FA, most services allow you to use regular old text messages. When logging in, you will receive a short confirmation code on your mobile device. When prompted during login, enter your code.",
+      "footer": "(Shelton, 2018)"
     },
     {
       "key": "subSubCategory19",
-      "text": "Push notification",
+      "text": "Authentication apps",
       "parent": "subCategory4",
       "color": "#07889b",
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "Some services allow you to receive your temporary login code from a mobile app. Authenticator apps are also great because they work when you don’t have access to your phone network (e.g., when traveling internationally).",
+      "footer": "(Shelton, 2018)"
     },
     {
       "key": "subSubCategory20",
-      "text": "E-mail",
+      "text": "Security keys",
       "parent": "subCategory4",
       "color": "#07889b",
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
-    },
-    {
-      "key": "subSubCategory21",
-      "text": "Social media",
-      "parent": "subCategory4",
-      "color": "#07889b",
-      "addingSubItemAllowed": false,
-      "removeAllowed": false,
-      "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
-    },
-    {
-      "key": "subSubCategory22",
-      "text": "One time passwords",
-      "parent": "subCategory4",
-      "color": "#07889b",
-      "addingSubItemAllowed": false,
-      "removeAllowed": false,
-      "hasChildren": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "Security keys are one of the most secure and efficient ways to use 2FA. A security key is a physical USB device you can use to authenticate into your account. When prompted to provide your 2FA credentials, instead of typing in a code, you simply insert your security key and physically tap it when prompted during login.",
+      "footer": "(Shelton, 2018)"
     },
     {
       "key": "category3",
@@ -337,8 +315,8 @@
       "hasChildren": false,
       "expanded": false,
       "removeAllowed": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "The segregation of personal and corporate data is available through EMM/MDM, Android Enterprise, Chrome OS, Samsung Knox platform and Microsoft Windows Information Protection on Windows 10 Enterprise or Pro versions. This provides an alternative to containers. The concept is to create a way to isolate, manage and even encrypt corporate data away from the personal data. ",
+      "footer": "(Hevesi, P., 2019)"
     },
     {
       "key": "subSubCategory10",
@@ -349,8 +327,8 @@
       "hasChildren": false,
       "expanded": false,
       "removeAllowed": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "Sensitive or regulated information may exist in many forms, such as email bodies, attachments, calendar appointments, credentials, keys, documents, spreadsheets, pictures and videos. Mobile devices may also have access to critical business apps that need to be protected from unauthorized access and use. Therefore, protection objectives apply to mobile devices the same as they do to any other enterprise computing system.",
+      "footer": "(Hevesi, P., 2019)"
     },
     {
       "key": "subSubCategory11",
@@ -361,8 +339,8 @@
       "hasChildren": false,
       "expanded": false,
       "removeAllowed": false,
-      "desc": "Some Intereting Text",
-      "footer": ""
+      "desc": "Security-minded companies have built enterprise authentication methods like certificates to increase security and management of mobile devices. Companies like Microsoft, Samsung and Google are building advanced authentication features like virtual and physical smart cards and multiple modes of biometrics.",
+      "footer": "(Hevesi, P., 2019)"
     },
     {
       "key": "category4",
@@ -373,8 +351,8 @@
       "removeAllowed": false,
       "hasChildren": true,
       "expanded": false,
-      "desc": "Data collected by third parties through smartphone apps can include anything from profile information such as age and gender to location details, including data about nearby cell phone towers or Wi-Fi routers, and information about every other app on a phone.",
-      "footer": "(Ram. A., et al., 2018)"
+      "desc": "Artificial Intelligence, or AI, is the ability of a computer to act like a human being. It has several applications, including software simulations and robotics.",
+      "footer": "(Christensson, P., 2010)"
     },
     {
       "key": "subCategory6",
@@ -384,8 +362,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
-      "desc": "Some Interesting Text.",
-      "footer": "(Author, 2019)"
+      "desc": "Machine Learning, at its most basic form, is the practice of using algorithms to parse data, learn from it, and then make a determination or prediction about something in the world.",
+      "footer": "(Shah, D., 2018)"
     },
     {
       "key": "subCategory7",
@@ -395,8 +373,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
-      "desc": "Some Interesting Text.",
-      "footer": "(Author, 2019)"
+      "desc": "Qualcomm and others are developing AI that functions locally on the devices. ",
+      "footer": "(Pandey, 2018)"
     },
     {
       "key": "subCategory8",
@@ -406,8 +384,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
-      "desc": "Some Interesting Text.",
-      "footer": "(Author, 2019)"
+      "desc": "AI's development has grown alongside smartphone's modern appeal. Currently the trend is to provide AI services to mobile from the cloud.",
+      "footer": "(Pandey, 2018)"
     },
     {
       "key": "category5",
@@ -418,8 +396,8 @@
       "removeAllowed": false,
       "hasChildren": true,
       "expanded": false,
-      "desc": "Some Text",
-      "footer": "Author, 2019"
+      "desc": "Smartphones/mobile devices have become the top digital device by consensus over taking the desktop. Thus, M-commerce, is a natural evolution of e-commerce. Many companies have shifted their approach to attract their consumers through these devices.",
+      "footer": "(Oreku, G. 2012)"
     },
     {
       "key": "subCategory9",
@@ -429,8 +407,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
-      "desc": "Some Interesting Text.",
-      "footer": "(Author, 2019)"
+      "desc": "Key features of M-commerce that is shaping retail and finance industries. As of 2017, this represents 34.5% of e-commerce sales (US). With the potential to grow to 54% by 2021.",
+      "footer": "(Mali, N. 2019)"
     },
     {
       "key": "category6",
@@ -441,8 +419,8 @@
       "removeAllowed": false,
       "hasChildren": true,
       "expanded": false,
-      "desc": "Some Text",
-      "footer": "Author, 2019"
+      "desc": "IoT, allows several type of devices to function and be automated once connected to the internet. Smartphones are seen as the bridge that allows this connection. Namely, smart homes, transportation, health care and supply chain management.",
+      "footer": "(El Khaddar, M., Boulmalf, M., 2017)"
     },
     {
       "key": "subCategory10",
@@ -452,20 +430,20 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
-      "desc": "Some Interesting Text.",
-      "footer": "(Author, 2019)"
+      "desc": "Smartphones can be used in an IoT setup along with four application.",
+      "footer": "(El Khaddar, M., Boulmalf, M. 2017)"
     },
     {
       "key": "category7",
-      "text": "Design",
+      "text": "App Design",
       "parent": "root",
       "color": "#FCA14F",
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
       "expanded": false,
-      "desc": "Some Text",
-      "footer": "Author, 2019"
+      "desc": "Mobile design trends are impacted by the current crop of smartphones. Currently the top selling phones are button-less with larger screens so design principals most adhere to that market.",
+      "footer": "(Babisch, N. 2018)"
     },
     {
       "key": "subCategory11",
@@ -475,8 +453,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
-      "desc": "Some Interesting Text.",
-      "footer": "(Author, 2019)"
+      "desc": "User-oriented approach relies on in App gestures, pleasant aesthetics and simple navigation.",
+      "footer": "(Ritter, C. 2018)"
     },
     {
       "key": "subCategory12",
@@ -486,8 +464,8 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
-      "desc": "Some Interesting Text.",
-      "footer": "(Author, 2019)"
+      "desc": "A Focus on user experience is critical in app design. App developers must empower user manipulation (e.g. gestures, rotate screen), enable user control of the App settings, and make sure app functions are consistent.",
+      "footer": "(Ritter, C. 2018)"
     },
     {
       "key": "subCategory13",
@@ -497,8 +475,60 @@
       "addingSubItemAllowed": false,
       "removeAllowed": false,
       "hasChildren": true,
-      "desc": "Some Interesting Text.",
-      "footer": "(Author, 2019)"
+      "desc": "The accssibility standard for applications rem ain equally important. The app's text font and colours need to be legitible to all potential users of the app.",
+      "footer": "(Ritter, C. 2018)"
+    },
+    {
+      "text": "Personal IoT",
+      "desc": "Where we find an increasing number of applications targeting health and fitness, and helping to solve everyday problems for users.",
+      "footer": "(El Khaddar, M., Boulmalf, M. 2017)",
+      "class": "subSubCategory",
+      "parent": "subCategory10",
+      "hasChildren": false,
+      "expanded": false,
+      "removeAllowed": false,
+      "addingSubItemAllowed": false,
+      "key": "308530",
+      "color": "#07889b"
+    },
+    {
+      "text": "Group IoT",
+      "desc": "Where smartphones can be used in the context of connected cars to check the system status, or in smart homes.",
+      "footer": "(El Khaddar, M., Boulmalf, M. 2017)",
+      "class": "subSubCategory",
+      "parent": "subCategory10",
+      "hasChildren": false,
+      "expanded": false,
+      "removeAllowed": false,
+      "addingSubItemAllowed": false,
+      "key": "214026",
+      "color": "#07889b"
+    },
+    {
+      "text": "Community IoT",
+      "desc": "Where crowd-sourcing applications could be used by citizens to contribute to a smart city.",
+      "footer": "(El Khaddar, M., Boulmalf, M. 2017)",
+      "class": "subSubCategory",
+      "parent": "subCategory10",
+      "hasChildren": false,
+      "expanded": false,
+      "removeAllowed": false,
+      "addingSubItemAllowed": false,
+      "key": "638727",
+      "color": "#07889b"
+    },
+    {
+      "text": "Industrial IoT",
+      "desc": "Where smartphones are used for business to consumer (B2C) purposes such as sending customized services and vouchers in real time.",
+      "footer": "(El Khaddar, M., Boulmalf, M. 2017)",
+      "class": "subSubCategory",
+      "parent": "subCategory10",
+      "hasChildren": false,
+      "expanded": false,
+      "removeAllowed": false,
+      "addingSubItemAllowed": false,
+      "key": "226141",
+      "color": "#07889b"
     }
   ]
 }
