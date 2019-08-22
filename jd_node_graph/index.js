@@ -8,7 +8,7 @@ const app = express();
 
 
 // First thing to do with a web serve is listening
-app.listen(3000, () => console.log('listening at 3000'));
+app.listen(process.env.PORT || 3000, () => console.log('listening at 3000'));
 
 /** 
  * Things I want to do with the server
