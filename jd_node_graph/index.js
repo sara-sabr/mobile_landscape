@@ -63,7 +63,6 @@ app.get('/api', (request, response) => {
 
     fs.readFile('mobile.json', (err, data) => {
         var graphData = JSON.parse(data);
-        // console.log(graphData.nodes)
         if (err){
             console.log('unable to get nodes');
         }
